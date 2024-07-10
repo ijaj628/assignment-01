@@ -41,6 +41,9 @@ nav ul li {
 main{
     max-width: 1140px;
 }
+.main-felx{
+    display: flex;
+}
 .skills-container{
     display: flex;
     justify-content: center;
