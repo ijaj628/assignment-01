@@ -1,14 +1,59 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 20px;
+}
+nav ul{
+    
+}
+nav ul li {
+    list-style: none;
+    background-color: white;
+    color: #0D1321;
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 5px;
+}
 .header{
     background-image: url(../assets/Hero-bg.png);
     width: 1440px;
     height: 652px;
-}
-.header-text{
-    
 }
 .header-img{
     background-color: black;
     color: white;
     width: 244px;
     height: 64px;
+}
+.benner{
+    width: 998;
+    height: 580;
+    margin: 26px 221px 45px 221px;
+}
+.text-center{
+   text-align : center;
+}
+main{
+    max-width: 1140px;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.section-title{
+    font-weight: 800;
+}
+.skill{
+    padding: 40px;
+}
+.down{
+    background-image: url(../assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
 }
