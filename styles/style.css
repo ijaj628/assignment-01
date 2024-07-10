@@ -30,8 +30,35 @@ nav ul li {
 .header-img{
     background-color: black;
     color: white;
+    border-radius: 7px;
     width: 244px;
     height: 64px;
+}
+.header-text-img{
+    width: 998px;
+    height: 580px;
+    margin: 157px 221px 0 221px;
+}
+.text-content{
+    width: 1140px;
+    height: 775px;
+    margin: 90px 148px 0 152px;
+}
+.text{
+    background-color: azure;
+    width: 1140px;
+    height: 1393px;
+    margin: 74px 148px 0 152px;
+}
+.text-title{
+    padding: 0 144px 48px 144px;
+}
+.text-align{
+    width: 946px;
+    height: 1233px;
+}
+.text-center-img{
+    padding: 32px;
 }
 .benner{
     width: 998;
@@ -52,6 +79,15 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 850px;
+    height: 240px;
+    padding: 48px;
+    margin: 32px 97px 0 97px;
+}
+.skills{
+    width: 1140px;
+    height: 460px;
+    margin: 151px 150px 0 150px;
 }
 .skills-container{
     display: flex;
@@ -62,10 +98,18 @@ main{
     font-weight: 800;
 }
 .skill{
+    width: 364px;
+    height: 299px;
     padding: 40px;
 }
 .down{
     background-image: url(../assets/handshake.jpg);
     width: 1140px;
     height: 313px;
+    margin: 49px 150px 0 150px;
+}
+.down-text{
+    width: 1044px;
+    height: 185px;
+    padding: 64px 48px;
 }
