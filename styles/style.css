@@ -113,3 +113,16 @@ main{
     height: 185px;
     padding: 64px 48px;
 }
+footer{
+    background-color: lemonchiffon; width: 1440px; height: 100px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    padding-right: 24px;
+}
